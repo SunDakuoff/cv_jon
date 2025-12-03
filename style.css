@@ -1,0 +1,102 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px;
+    border-radius: 10px;
+    background-color: aqua;
+    font-family: Arial
+}
+
+title {
+    color: rgb(6, 13, 114);
+}
+
+img {
+    width: 50;
+    height: 50;
+    border-radius: 50px;
+}
+
+body {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    background-color: rgba(115, 23, 236, 0.137);
+    border: 10px solid rebeccapurple;
+    column-span: all;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+}
+
+.left-column {
+    width: 30%
+}
+
+.right-column {
+    width: 70%;
+}
+
+.skill {
+    display: inline-block;
+    background-color: rgb(35, 3, 65);
+    color: rgb(207, 142, 193);
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin: 3px;
+}
+
+.skill:hover {
+    background-color: rgb(105, 87, 121);
+}
+
+.box {
+    min-height: 300px;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: rgb(133, 81, 14);
+    column-rule: 1px solid rgb(236, 173, 90);
+    column-width: 100px;
+}
+
+
+h3 {
+    border-style: groove;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border-color: rebeccapurple;
+    margin:auto;
+    text-align: center;
+}
+
+
+h4 {
+    border-style: groove;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border-color: rebeccapurple;
+    margin:auto;
+    text-align: center;
+}
+
+h5 {
+    border-style: groove;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border-color: rebeccapurple;
+    margin:auto;
+    text-align: center;
+
+}
+
+p {
+    text-align: left;
+    text-decoration: solid;
+    font-size:2em;
+ 
+}
