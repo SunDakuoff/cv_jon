@@ -12,12 +12,6 @@ title {
     color: rgb(6, 13, 114);
 }
 
-img {
-    width: 400px;
-    height: 250px;
-    border-radius: 50px;
-}
-
 body {
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
     background-color: rgba(115, 23, 236, 0.137);
@@ -31,7 +25,7 @@ h3 {
     height: 175px;
     border-radius: 50%;
     border-color: rebeccapurple;
-    margin-left: 1500px;
+    margin-left: 1200px;
     text-align: center;
 }
 
@@ -42,7 +36,7 @@ h4 {
     height: 175px;
     border-radius: 50%;
     border-color: rebeccapurple;
-    margin-left: 1500px;
+    margin-left: 1200px;
     text-align: center;
 }
 
@@ -52,7 +46,7 @@ h5 {
     height: 175px;
     border-radius: 50%;
     border-color: rebeccapurple;
-    margin-left: 1500px;
+    margin-left: 1200px;
     text-align: center;
 
 }
@@ -65,3 +59,29 @@ p {
     margin-left: 50px;
 
 }
+
+.dark-mode {
+    background-color: #000000;
+    color: #eee;
+}
+
+.visitcard2 {
+    position:absolute;
+    left:100pxs;
+    top:330px;transform:translate(-50%, -50);
+    font-size:  2em;
+    opacity:0;
+    animation: fadeOut 0.3s ease-out;
+    color: #0213fc;
+}
+.visitcard2:hover{
+    animation: fadeIn 0.2s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+    0%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes fadeIn { 
+    0% {opacity:0;}
+    100% {opacity:1;}}
