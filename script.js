@@ -8,5 +8,3 @@ togglebtn.addEventListener("click", () => {
     document.body.classList.toggle2("visitcardbtn");
 });
 addEventListener("play", (event) => { })
-
-onplay = (event) => { }
