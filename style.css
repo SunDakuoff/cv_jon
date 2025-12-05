@@ -66,22 +66,42 @@ p {
 }
 
 .visitcard2 {
-    position:absolute;
-    left:100pxs;
-    top:330px;transform:translate(-50%, -50);
-    font-size:  2em;
-    opacity:0;
+    position: absolute;
+    left: 100pxs;
+    top: 330px;
+    transform: translate(-50%, -50);
+    font-size: 2em;
+    opacity: 0;
     animation: fadeOut 0.3s ease-out;
     color: #0213fc;
 }
-.visitcard2:hover{
+
+.visitcard2:hover {
     animation: fadeIn 0.2s ease-in;
     animation-fill-mode: forwards;
 }
+
 @keyframes fadeOut {
-    0%{opacity:1;}
-    100%{opacity:0;}
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
-@keyframes fadeIn { 
-    0% {opacity:0;}
-    100% {opacity:1;}}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+h6 {
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
